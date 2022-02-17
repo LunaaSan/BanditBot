@@ -2,8 +2,13 @@
 BanditBot is a discord bot which is apart of the "Project Bandit", Project Bandit is a Selfbot, Regular Discord Bot & Website Services.
 Also Bandit Bot is a multipurp bot, which is in **__beta and not fully finished__!!**
 
-- Language: Node.js
-- Website: [Replit](https://replit.com/@SkidLunaa)
+**To-Do**
+- Add a command handler
+- Finish "How to setup"
+
+**Bot Information**
++ Language: Node.js
++ Website: [Replit](https://replit.com/@SkidLunaa)
 
 
 # Commands
