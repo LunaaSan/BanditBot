@@ -4,10 +4,7 @@ Also Bandit Bot is a multipurp bot, which is in **__beta and not fully finished_
 
 Bandit was made pretty fast and its still in beta we will be adding command handlers and all the commands ect, right now all the commands ect are in index.js.
 
-**To-Do**
-- Add a command handler
-- Make Github Wiki
-- Finish "How to setup"
+Wiki: [Click Me](https://github.com/LunaaSan/BanditBot/wiki)
 
 **Bot Information**
 + Language: Node.js
