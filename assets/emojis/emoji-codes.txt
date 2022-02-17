@@ -1,0 +1,33 @@
+--purple from plant roonie
+<:pr_help:941077285035986985>
+<:pr_help1:941078493737934908>
+<:lilogodud:941079319667671080>
+
+--mod/discord lookalikes
+<:communitymem:941084435124740156>
+<:modbadge':941084498525823017>
+<:staffbadge:941084559682965504>
+
+-discord
+<:discordanncou:933564194635284581>
+<:discord_reply_continue:933538509904551987>
+<:discordreply:933536614582480897>
+<:boosticon:933546726814515240>
+<:discov:933549042015813663>
+:giftada:
+
+-misc/fun
+<:spark1:933549956571222096>
+
+-- Numbers
+<:num1:929298595662946314>
+<:num2:929298845681193001>
+<:num3:929298931815448627>
+<:num4:929299030540972103>
+<:num5:929299093883334727>
+
+--used in bot
+ General Help Icon               <:communitymem:941084435124740156>
+ Fun Commands Icon               <:spark1:933549956571222096>
+ Moderation Commands Icon        <:modbadge:941084498525823017>
+ Tool Commands Icon              <:staffbadge:941084559682965504>
