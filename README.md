@@ -6,6 +6,7 @@ Bandit was made pretty fast and its still in beta we will be adding command hand
 
 **To-Do**
 - Add a command handler
+- Make Github Wiki
 - Finish "How to setup"
 
 **Bot Information**
