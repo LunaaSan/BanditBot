@@ -1,0 +1,11 @@
+# BanditBot Website Files
+
+* I suggest downloading the .zip file so that everything is in order, and so you don't have to do more work than you already have to. 
+* I put the files here so you can look through them without having to download the .zip file, but the folders are not in order.
+
+# Coding Information
+
+* Language: HTML
+* Live Demo: [Click Me](https://banditbotwebsite.skidlunaa.repl.co/src/index.html)
+* Site used: [Replit](https://replit.com/@SkidLunaa)
+
