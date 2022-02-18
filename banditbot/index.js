@@ -67,6 +67,24 @@ client.on('message', message =>{
           else if(command === 'tools'){
         client.commands.get('tools').execute(message, args);
     } 
+          else if(command === 'misc'){
+        client.commands.get('misc').execute(message, args);
+    } 
+            else if(command === 'clear'){
+        client.commands.get('clear').execute(message, args);
+    } 
+              else if(command === 'kick'){
+        client.commands.get('kick').execute(message, args);
+    } 
+                else if(command === 'ban'){
+        client.commands.get('ban').execute(message, args);
+    } 
+                  else if(command === 'mute'){
+        client.commands.get('mute').execute(message, args);
+    } 
+                    else if(command === 'unmute'){
+        client.commands.get('unmute').execute(message, args);
+    } 
 });
 
 client.login(config.token);
