@@ -2,8 +2,8 @@ const { MessageEmbed } = require('discord.js');
 const Discord = require('discord.js');
 
 module.exports = {
-    name: 'lunaa',
-    description: "lunaas menu",
+    name: 'misc',
+    description: "misc menu",
     execute(message, args){
       let embed = new Discord.MessageEmbed()
       setTitle("COMING SOON")
