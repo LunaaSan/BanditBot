@@ -9,3 +9,5 @@
 * Live Demo: [Click Me](https://banditbotwebsite.skidlunaa.repl.co/src/index.html)
 * Site used: [Replit](https://replit.com/@SkidLunaa)
 
+* The dashboard side of things don't work but are there for any future events to add one.
+
