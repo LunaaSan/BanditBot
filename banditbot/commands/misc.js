@@ -6,7 +6,7 @@ module.exports = {
     description: "misc menu",
     execute(message, args){
       let embed = new Discord.MessageEmbed()
-      setTitle("COMING SOON")
+      .setTitle("COMING SOON")
   .setDescription(`
 Coming soon...
 `)
