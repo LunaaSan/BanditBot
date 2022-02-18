@@ -9,14 +9,14 @@ Bandit was made pretty fast and its still in beta we will be adding command hand
 + Website: [Replit](https://replit.com/@SkidLunaa)
 
 # Wiki 
-Wiki: [Click Me](https://github.com/LunaaSan/BanditBot/wiki)
-Displays more information about banditbot. 
-
-## Commands
-[Click Me](https://github.com/LunaaSan/BanditBot/wiki/Commands)
+- BanditBot Wiki: [Click Me](https://github.com/LunaaSan/BanditBot/wiki)
+- Bandit Website Wiki: [Click Me]()
+- BanditBot Wiki displays all the information, commands ect about BanditBot.
+- Bandit Website Wiki displays all the information about the website with the HTML Source Code
 
 ## How To Setup
-[Click Me](https://github.com/LunaaSan/BanditBot/wiki/Setup)
+* BanditBot Setup [Click Me](https://github.com/LunaaSan/BanditBot/wiki/Setup)
+* Website Setup
 
 # Credits
 + Discord: Not Lunaa#4776
