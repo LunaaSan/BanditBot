@@ -15,7 +15,7 @@ module.exports = {
       Doxbin > https://doxbin.com/user/values
        Doxbin2 > https://doxbin.com/user/maisan
        Github  > https://github.com/LunaaSan
-       Website > https://bit.ly/LunasWeb `)
+       Website > https://bit.ly/LunaaPortfolio `)
 .setThumbnail("https://replit.com/cdn-cgi/image/width=1920,quality=80/https://storage.googleapis.com/replit/images/1645046592742_34385927315bfeb4d8f570640a665113.gif")
 .setColor("#FF9FED")
          message.channel.send( { embeds:[ embed ] } )
