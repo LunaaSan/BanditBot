@@ -2,7 +2,7 @@ const { MessageEmbed } = require('discord.js');
 const Discord = require('discord.js');
 
 module.exports = {
-    name: 'mod',
+    name: 'moderation',
     description: "moderation menu",
     execute(message, args){
       let embed = new Discord.MessageEmbed()
