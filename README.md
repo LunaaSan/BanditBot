@@ -2,6 +2,8 @@
 BanditBot is a discord bot which is apart of the "Project Bandit", Project Bandit is a Selfbot, Regular Discord Bot & Website Services.
 Also Bandit Bot is a multipurp bot, which is in **__beta and not fully finished__!!**
 
+command-handler was made by e8ght view his github [here](https://github.com/e8ght-fe/)
+
 Bandit was made pretty fast and its still in beta we will be adding all the commands ect.
 
 **Bot Information**
