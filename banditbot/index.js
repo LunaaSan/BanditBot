@@ -5,86 +5,50 @@ const { intents } = djs
 const { Client, Intents } = require('discord.js');
 const Discord = require('discord.js');
 const { prefix, token , logCH, serverID, owner } = process.env;
-const client = new djs.Client({
-  intents: [ "GUILDS", "GUILD_MESSAGES" ]});
 const config = process.env;
 const fs = require('fs');
- 
-client.commands = new Discord.Collection();
- 
-const commandFiles = fs.readdirSync('./commands/').filter(file => file.endsWith('.js'));
-for(const file of commandFiles){
-    const command = require(`./commands/${file}`);
- 
-    client.commands.set(command.name, command);
-}
- 
-client.on("ready", () => { 
-        client.user.setStatus("online");
-        client.user.setActivity('My prefix is "." | Watching your kids sleep ', { type: "PLAYING"})
-    })
+const discord = require('discord.js');
+const { stdout } = require('process');
 
-client.on('ready', () => {
-  console.log(`Bandits Online`)
+
+// Command Names
+const commandNames = new Array;
+
+
+//discord shit
+const client = new discord.Client({
+    intents: [ "GUILDS", "GUILD_MESSAGES" ]
 });
 
+client.commands = new discord.Collection();
+
+//load the commands
+const commands = fs.readdirSync(`${__dirname}/commands/`).filter(f => f.endsWith('.js'));
+
+for (file of commands) {
+    const command = require(`./commands/${file}`);
+    client.commands.set(command.name, command);
+    commandNames.push(command.name);
+    stdout.write(`Loaded ${command.name}\n`);
+}
 
 
+client.on("ready", () => { 
+    client.user.setStatus("online");
+    client.user.setActivity('My prefix is "." | Watching your kids sleep ', { type: "PLAYING"});
+    stdout.write("Bandit's online\n");
+})
 
-
-
-
-
-
-
-client.on('message', message =>{
-    if(!message.content.startsWith(prefix) || message.author.bot) return;
+client.on('messageCreate', msg => {
+    if(!msg.content.startsWith(prefix) || msg.author.bot) return;
  
-    const args = message.content.slice(prefix.length).split(/ +/);
-    const command = args.shift().toLowerCase();
- 
-    if(command === 'moderation'){
-        client.commands.get('mod').execute(message, args);
-    } 
-     else if(command === 'help'){
-        client.commands.get('help').execute(message, args);
-    } 
-       else if(command === 'credits'){
-        client.commands.get('credits').execute(message, args);
-    } 
-       else if(command === 'fun'){
-        client.commands.get('fun').execute(message, args);
-    } 
-       else if(command === 'funnsfw'){
-        client.commands.get('funnsfw').execute(message, args);
-    } 
-       else if(command === 'lunaa'){
-        client.commands.get('lunaa').execute(message, args);
-    } 
-     else if(command === 'ping'){
-        client.commands.get('ping').execute(message, args);
-    } 
-          else if(command === 'tools'){
-        client.commands.get('tools').execute(message, args);
-    } 
-          else if(command === 'misc'){
-        client.commands.get('misc').execute(message, args);
-    } 
-            else if(command === 'clear'){
-        client.commands.get('clear').execute(message, args);
-    } 
-              else if(command === 'kick'){
-        client.commands.get('kick').execute(message, args);
-    } 
-                else if(command === 'ban'){
-        client.commands.get('ban').execute(message, args);
-    } 
-                  else if(command === 'mute'){
-        client.commands.get('mute').execute(message, args);
-    } 
-                    else if(command === 'unmute'){
-        client.commands.get('unmute').execute(message, args);
-    } 
+    const params = msg.content.slice(prefix.length).split(/ +/);
+    const userCommand = params.shift().toLowerCase();
+
+    //check if the parameter the user put in is in the commandNames array
+    if(commandNames.indexOf(userCommand) != -1) {
+        client.commands.get(userCommand).execute(msg, params)
+    };
 });
 
 client.login(config.token);
