@@ -18,7 +18,7 @@ misc | Displays all misc commands. | ".misc"
 credits | Displays the credit menu. | ".credits"
 
 ───────────── ⋆⋅☆⋅⋆ ───────────── 
-Bot Website > https://bit.ly/
+Bot Website > https://bit.ly/BanditSite
 Support server > https://discord.gg/k2vJM5NvXa Prefix > . `)
       .setThumbnail("https://hypebots.org/storage/sites/thebanditblock.png")
       .setFooter("Made with love by Lunaa ♡")
