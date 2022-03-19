@@ -14,11 +14,11 @@ Bandit was made pretty fast and its still in beta we will be adding all the comm
 - Bandit Website Wiki displays all the information about the website with the HTML Source Code
 
 # Bot Information
-- `Language: Node.js`
-- `Discord.js Verison - v12`
-- `Discord JS - A Node JS wrapper for the Discord API`
-- `process.env - To take care of any private variables.`
-- `Hosted on: https://replit.com/`  | you can host it where ever you'd like!
+- Language: Node.js
+- Discord.js Verison - v12
+- Discord JS - A Node JS wrapper for the Discord API
+- process.env - To take care of any private variables.
+- Hosted on: https://replit.com/  | you can host it where ever you'd like!
 - [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 
