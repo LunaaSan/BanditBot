@@ -1,3 +1,6 @@
+# IMPORTANT
+Banditbot is discontinued!
+
 #  BanditBot
 BanditBot is a discord bot which is apart of the "Project Bandit", Project Bandit is a Selfbot, Regular Discord Bot & Website Services.
 Also Bandit Bot is a multipurp bot, which is in **__beta and not fully finished__!!**
@@ -12,7 +15,8 @@ Bandit was made pretty fast and its still in beta we will be adding all the comm
 
 # Bot Information
 - `Language: Node.js`
-- ` Discord JS - A Node JS wrapper for the Discord API`
+- `Discord.js Verison - v12`
+- `Discord JS - A Node JS wrapper for the Discord API`
 - `process.env - To take care of any private variables.`
 - `Hosted on: https://replit.com/`  | you can host it where ever you'd like!
 - [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
